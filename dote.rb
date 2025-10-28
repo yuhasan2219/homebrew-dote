@@ -2,8 +2,8 @@ class Dote < Formula
   desc "dot e command"
   homepage "https://github.com/yuhasan2219/homebrew-dote"
   url "https://raw.githubusercontent.com/yuhasan2219/homebrew-dote/main/dote.c"
-  sha256 "c06a95ec7dc4a7b814faff84d39079eacccd48c6f1b0065d0f7e762fe0910b42"
-  version "1.0.0"
+  sha256 "b6509e56bb353969207bd133d9f28fa0806b974c5f7645688e4fbe4f013da3da"
+  version "1.0.1"
 
   def install
     system ENV.cc, "dote.c", "-o", "dote"
